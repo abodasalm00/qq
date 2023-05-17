@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>11:11</title>
+  </head>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+    }
+    .container {
+      margin-top: 100px;
+    }
+    button {
+      padding: 7px 100px;
+      border: none;
+      margin-top: 20px;
+      display: block;
+      text-transform: uppercase;
+      font-size: 13px;
+    }
+    .pos {
+      background-color: brown;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .nig {
+      background-color: cadetblue;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    .number {
+      border: 2px solid;
+      height: 200px;
+      width: 200px;
+      margin: auto;
+      text-align: center;
+      font-size: 100px;
+      padding-top: 50px;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="number" id="num"></div>
+      <button class="pos" id="pos">+1</button>
+      <button class="nig" id="nig">-1</button>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
